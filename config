@@ -456,5 +456,15 @@ git = "https://github.com/mesalock-linux/yasna.rs-sgx"
 branch = "master"
 replace-with = "vendored-sources"
 
+[source."https://github.com/czzmmc/rustcrypto-RSA-sgx"]
+git = "https://github.com/czzmmc/rustcrypto-RSA-sgx"
+branch = "master"
+replace-with = "vendored-sources"
+
+[source."https://github.com/czzmmc/num-bigint-sgx"]
+git = "https://github.com/czzmmc/num-bigint-sgx"
+branch = "dig"
+replace-with = "vendored-sources"
+
 [source.vendored-sources]
 directory = "vendor"

@@ -105,6 +105,8 @@ wasmi            = { git = "https://github.com/mesalock-linux/wasmi-sgx" }
 webpki           = { git = "https://github.com/mesalock-linux/webpki", branch = "mesalock_sgx" }
 webpki-roots     = { git = "https://github.com/mesalock-linux/webpki-roots", branch = "mesalock_sgx" }
 yasna            = { git = "https://github.com/mesalock-linux/yasna.rs-sgx" }
+num-bigint-dig-sgx = { package = "num-bigint-dig", version = "0.6", features = ["rand", "i128", "u64_digit", "prime", "zeroize"], git = "https://github.com/mesalock-linux/num-bigint-sgx", branch = "dig" }
+rsa              = { git = "https://github.com/czzmmc/rustcrypto-RSA-sgx", features = ["serde1", "expose-internals"] }
 
 # no_std crates
 assert_matches = { version = "1.3.0" }
